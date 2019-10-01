@@ -9,6 +9,4 @@ public interface TopicosRepository extends JpaRepository<Topico, Long> {
     //Busca utilizando o nome da Classe
     List<Topico> findByCursoNome(String nomeCurso);
 
-    //Busca personalizada
-
 }
